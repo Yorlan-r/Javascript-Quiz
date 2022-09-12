@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    <script src="https://kit.fontawesome.com/aab1788fd8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div class="start_btn"><button> Start Quiz</button></div>
+
+    <div class="info_box">
+        
+        <div class="info_title">
+            <span>Javascript Quiz Challenge</span>
+        </div>
+
+        <div class="info_list">
+            <div class="info">Try to answer the following questions, <span>you will be timed given 60 seconds per question</span>. Goodluck and have fun!</div>
+        </div>
+        <div class="buttons">
+            <button class="quit"> Exit Quiz</button>
+            <button class="restart"> Continue</button>
+        </div>
+    </div>
+    
+    <div class="quiz_box">
+    <header>
+        <div class="title"> Test Your Knowledge!</div>
+        <div class="timer">
+            <div class="time_text">Time Left</div>
+            <div class="timer_sec">30</div>
+        </div>
+        <div class="time_line"></div>
+    </header>
+
+    <section>
+        <div class="que_text">
+
+            <span>Arrays can be used to store _____.</span>
+        </div>
+            <div class="option_list">
+                <div class="option">
+
+                    <span>Strings</span>
+
+                    <div class="icon cross"><i class="fas fa-times"></i>
+                    </div>
+                </div>
+
+                <div class="option">
+                    <span>Booleans</span>
+
+                    <div class="icon cross"><i class="fas fa-times"></i></div>
+                </div>
+
+                <div class="option">
+                    <span>Numbers</span>
+
+                    <div class="icon cross"><i class="fas fa-times"></i>
+                    </div>
+                </div>
+                
+                <div class="option">
+                    <span>All the above</span>
+
+                    <div class="icon tick"><i class="fas fa-check"></i></div>
+                </div>
+                
+            </div>
+
+    
+    </section>
+
+    <footer>
+        <div class="total_que">
+            <!-- <span><p>2</p><p>of</p><p>5</p>Questions</span>-->
+        </div>
+        <button class="next_btn">Next Ques</button>
+    </footer>
+    </div>
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">You've complated the Quiz!</div>
+        <div class="score_text">
+            <span>and sorry, you only had <p>2</p><p>out of</p><p>5</p></span>
+        </div>
+        <div class="buttons">
+            <button class="restart">Replay Quiz</button>
+            <button class="quit">Quit Quiz</button>
+        </div>
+    </div>
+    <script src="questions.js"></script>
+    <script src="styles.js"></script>
+</body>
+</html>
